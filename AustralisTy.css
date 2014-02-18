@@ -1,0 +1,27 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/* Set default namespace to XUL */
+
+/* CSS written by mylittlehokage */
+/* Disclaimer: Mess with this at your own risk (although you can just delete the file if you really cock it up.) I'm not responsible. 
+
+/* Shove AwesomeBar higher up */
+#toolbar-menubar { 
+        margin-top: -5px !important;
+}
+
+/* Remove the padding between the URL bar and the tabs/content */
+#urlbar-container { 
+        margin-bottom: -2px !important; 
+        margin-top: -2px !important; 
+}
+
+/* Reposition the Fullscreen Button to be more vertically centered */
+#titlebar-fullscreen-button {
+        margin-bottom: 15px !important;
+}
+
+/* Remove extra padding from the Navigation Bar and other toolbars*/
+
+.toolbarbutton-1, .toolbarbutton-menubutton-button {
+    padding: 0px !important;
+}
